@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IncipitSearch - DHA 2017</title>
+
+    <!-- meta information -->
+    <meta name="author" content="Anna Neovesky, Frederic von Vlahovits" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- favicons -->
+    <link rel="shortcut icon" href="resources/img/favicon.png" />
+    <link rel="apple-touch-icon" href="resources/img/apple-touch-icon.png" />
+
+    <!-- CSS reset and grid -->
+    <link href="vendor/normalize/normalize-4.1.1.css" rel="stylesheet" />
+    <link href="vendor/skeleton/skeleton-2.0.4.css" rel="stylesheet" />
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,600italic,400italic,700italic,800,800italic&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css" />
+
+    <!-- styles for included libraries -->
+
+    <!-- chartist -->
+    <link rel="stylesheet" href="vendor/chartist/chartist.min-0.9.7.css" />
+
+    <!-- codemirror -->
+    <link rel="stylesheet" href="vendor/codemirror/lib/codemirror.css" />
+
+    <!-- highlight -->
+    <link rel="stylesheet" href="vendor/highlight/styles/default.css" />
+    <link rel="stylesheet" href="resources/css/hljs.linenumbering.css" />
+
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup-1.1.0.css" />
+
+    <!-- standard presentation styles -->
+    <link href="resources/css/style.css" rel="stylesheet" />
+
+    <!-- custom presentation styles -->
+    <link href="resources/css/custom.css" rel="stylesheet" />
+
+    <!-- js needed in head -->
+
+    <!-- greuler -->
+    <script src="vendor/d3/d3-3.5.6.js"></script>
+    <script src="vendor/cola/cola.v3.min.js"></script>
+    <script src="vendor/greuler/greuler-0.5.5.min.js"></script>
+
+    <!-- html5 dataset shim for IE -->
+    <script src="vendor/impress/html5-dataset.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <div class="fallback-message">
+        <p>
+            Your browser <strong>doesn't support the features required</strong> by impress.mod.js,
+            so you are presented with a simplified version of this presentation.
+        </p>
+        <p>
+            For the best experience please use the latest <strong>Chrome</strong>, <strong>Safari</strong>
+            or <strong>Firefox</strong> browser.
+        </p>
+    </div>
+
+    <div id="impress">
+
+        <div class="step">
+            <h4><strong>05.12.2017</strong> | <a href="#">Akademie der Wissenschaften und der Literatur | Mainz</a></h4>
+            <h4><strong>DHA Innsbruck</strong></h4>
+
+            <h1 class="down-100">IncipitSearch</h1>
+
+            <h2 class="red up-25">Ein offener Webservice zur Aggregation und Suche notierter Musik</h2>
+
+            <h4 class="down-100">
+                <strong>Slides:</strong>
+                <a href="https://incipitsearch.adwmainz.net/" title="View IncipitSearch online">
+                    https://incipitsearch.adwmainz.net/
+                </a>
+            </h4>
+
+            <h5>
+                <strong><a>Anna Neovesky & Frederic von Vlahovits</a></strong> |
+                <img src="resources/img/Twitter_bird_logo_2012.svg" alt="Twitter" class="twitter-icon" />
+                <a href="https://twitter.com/digicademy" title="Digital Academy on Twitter">@digicademy</a> |
+                <img src="resources/img/Octicons-mark-github.svg" alt="Github" class="gh-icon" />
+                <a href="https://github.com/digicademy/incipitSearch" title="Digital Academy on GitHub">digicademy</a> |
+                <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>
+            </h5>
+        </div>
+
+        <div class="step">
+            <h2>Was ist ein Incipit?</h2>
+            <a href="http://imslp.org/wiki/Toccata_and_Fugue_in_D_minor%2C_BWV_565_(Bach%2C_Johann_Sebastian)">
+                <img src="resources/img/toccata.png" />
+            </a>
+            <audio controls>
+                <source src="resources/audio/toccata.mp3" type="audio/mp3">
+              Your browser does not support the audio element.
+            </audio>
+            <p class="small">Quelle: <a href="http://imslp.org/wiki/Toccata_and_Fugue_in_D_minor%2C_BWV_565_(Bach%2C_Johann_Sebastian)">Toccata and Fugue in D minor, BWV 565 (Bach, Johann Sebastian)</a> in <a href="http://imslp.org/"></a>IMSLP</a>, aufgerufen am 16.10.17.</p>            
+            <ul class="substep">
+                <li>Incipit meint den Anfang einer Musik</li>
+                <li>Möglichkeit der Identifizierung von übereinstimmendem musikalischen Material</li>
+                <li>Ggf. sogar erste musikanalytische Anhaltspunkte</li>
+            </ul>
+        </div>
+
+        <div class="step">  
+            <div class="row">
+                <div class="twelve columns">
+                    <h2>IncipitSearch…</h2>
+                    <h3>ist eine Suchmaschine für Musikanfänge</h3>
+                    <ul>
+                        <li>Metasuchmaschine</li>
+                        <li>Einbezug von Repositorien durch offene Daten</li>
+                    </ul>
+                </div>
+            </div>    
+        </div>
+
+        <div class="step">
+                <h2>Demonstration</h2>
+                <div class="row">
+                <div class="eight columns">
+                    <a target="_blank" href="https://incipitsearch.adwmainz.net">
+                        <img src="resources/img/Screenshot_Website_IncipitSearch.png" />
+                    </a>
+                </div>
+            </div>
+            <p class="down-50">
+                Website: <a target="_blank"href="https://incipitsearch.adwmainz.net">https://incipitsearch.adwmainz.net</a>
+            </p>
+        </div>
+
+        <div class="step">
+            <h2>IncipitSearch Metadatenformat</h2>
+            <a href="resources/img/schema-illustration.jpg"><img src="resources/img/schema-illustration.jpg" /></a>
+            <p class="small">Schema: Torsten Schrade</p>
+        </div>
+
+        <div class="step">
+            <h2>IncipitSearch Metadatenformat</h2>
+            <h3 class="red pull-up">Beispiel Breitkopf Katalog</h3>
+            <a href="resources/img/breitkopf-schema.png">
+                <img src="resources/img/breitkopf-schema.png" />
+            </a>
+        </div>
+
+        <div class="step">
+            <h2>
+                Perspektiven/Wünsche für die IncipitSearch
+            </h2>
+            <ul>
+                <li>Optimierung und Ausbau der bestehenden Funktionalität im starken Austausch mit Musikwissenschaftlerinnen und Musikwissenschaftlern
+                    <ul>
+                        <li>Suchinterface</li>
+                        <li>Suchmodi</li>
+                        <li>Ergebnisaufbereitung</li>
+                    </ul>
+                </li>
+                <li class="substep">Wachstum der Plattform durch weitere Datenlieferanten
+                    <ul>
+                        <li>Einbeziehung weiterer Formate</li>
+                        <li>Webformular zur Erfassung eigener Incipit-Daten</li>
+                    </ul>
+                </li>
+                <li class="substep">Fokus Normdaten und LOD
+                    <ul>
+                        <li>Einbeziehung von Normdaten</li>
+                        <li>Bereitstellung sämtlicher aggregierter Daten</li>
+                    </ul>
+                </li>
+                <li class="substep">Anreiz zur Digitalisierung von Werkverzeichnissen und der eigenen Erstellung von Metadaten</li>
+            </ul>
+        </div>
+
+
+        <div class="step">
+            <h2 class="line-height-one-five">
+                <a href="mailto:team@digitale-akademie.de">Mitmachen</a><br /> bei der <span class="red">IncipitSearch</span>?!
+            </h2>
+        </div>
+
+
+    </div>
+
+    <!-- jquery -->
+    <script src="vendor/jquery/jquery-1.11.0.min.js"></script>
+
+    <!-- chartist -->
+    <script src="vendor/chartist/chartist.min-0.9.7.js"></script>
+    <script src="resources/js/chartist.charts.js"></script>
+
+    <!-- codemirror -->
+    <script src="vendor/codemirror/lib/codemirror.js"></script>
+    <script src="vendor/codemirror/addon/edit/matchbrackets.js"></script>
+    <script src="vendor/codemirror/mode/sparql/sparql.js"></script>
+    <script>
+        var editor = CodeMirror.fromTextArea(document.getElementById("sparql"), {
+            mode: "application/sparql-query",
+            matchBrackets: true,
+            lineNumbers: true,
+            viewportMargin: Infinity
+        });
+    </script>
+
+    <!-- highlight -->
+    <script src="vendor/highlight/highlight.pack-9.3.0.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="resources/js/hljs.linenumbering.js"></script>
+
+    <!-- magnific popup -->
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min-1.1.0.js"></script>
+    <script src="resources/js/magnific-popup.lightbox.js"></script>
+
+    <!-- impress.mod.js -->
+    <script src="vendor/impress/impress.fork.js"></script>
+    <script src="vendor/impress/impress-slidenum.js"></script>
+    <script>
+        var obj = impress();
+        obj.init();
+        initSlideNo(obj);
+    </script>
+    <script>
+    (function(document, $, undefined) {
+	'use strict';
+
+	var isPlaying,
+		audio,
+		impressObj = impress(),
+		impressGoto = impressObj.goto;
+
+	$(document).on('impress:stepenter', function(event,f) {
+		var $currSlide = $(event.target);
+		if(audio) {
+			audio.pause();
+		}
+		audio = $currSlide.find('audio')[0];
+		if(audio) {
+			audio.play();
+			if(isPlaying && $currSlide[0] != $currSlide.parent().children().last()[0]) {
+				audio.addEventListener('ended',function() {
+					impressObj.goto($currSlide.next());
+					audio.removeEventListener('ended');
+				});
+			} else {
+				isPlaying = false;
+			}
+			
+		}
+	});
+
+	impressObj.play = function() {
+		isPlaying = true;
+		this.goto(0);
+	};
+
+	impressObj.goto = function($el) {
+		if(isNaN($el)) {
+			impressGoto($el.parent().children().index($el), $el.data('transition-duration'));
+		} else {
+			impressGoto($el);			
+		}
+	}
+
+
+})(document, jQuery);
+</script>
+
+</body>
+</html>
